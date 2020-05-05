@@ -193,7 +193,6 @@ totaldailymean2<-mean(dailytotal2$totalsteps)
 ```
 The mean with imputed data, **1.0766189\times 10^{4}**, is unchanged from the  mean without imputed data. This makes sense as the imputed data itself is the mean steps by time interval and wouldn't affect the overall average. 
 
-Dataframe of daily mean steps with imputed data:
 
 ```r
 totaldailymedian2<-median(dailytotal2$totalsteps)

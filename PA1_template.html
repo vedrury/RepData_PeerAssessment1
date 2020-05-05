@@ -470,7 +470,6 @@ rug(dailytotal2$totalsteps)</code></pre>
 <p>Find mean and median number of steps taken each day with imputed data</p>
 <pre class="r"><code>totaldailymean2&lt;-mean(dailytotal2$totalsteps)</code></pre>
 <p>The mean with imputed data, <strong>1.076618910^{4}</strong>, is unchanged from the mean without imputed data. This makes sense as the imputed data itself is the mean steps by time interval and wouldn’t affect the overall average.</p>
-<p>Dataframe of daily mean steps with imputed data:</p>
 <pre class="r"><code>totaldailymedian2&lt;-median(dailytotal2$totalsteps)</code></pre>
 <p>The median with the imputed data is now <strong>1.076618910^{4}</strong>, slightly different from before. This makes sense since the mean steps by interval used to impute data would change the overall median of the dataset.</p>
 </div>
